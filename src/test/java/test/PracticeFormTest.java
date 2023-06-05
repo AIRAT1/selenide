@@ -19,7 +19,7 @@ public class PracticeFormTest extends UITestBase{
 
     @Test
     public void practiceFormTest() {
-        init().fillForm("firstName", "lastName", "email" + Math.abs(RANDOM.nextInt()) + "@.com", "Male", 8901234567L,
+        initPracticeFormPage().fillForm("firstName", "lastName", "email" + Math.abs(RANDOM.nextInt()) + "@.com", "Male", 8901234567L,
                         "subject", 1, "address", "NCR", "Delhi");
     }
 
